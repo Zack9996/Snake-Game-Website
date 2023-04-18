@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#myCanvas {
+  border: 5px solid lightgreen;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+}
+
+#myScore {
+  margin-top: 1rem;
+}
+
+#myScore,
+#myScoreHistory {
+  color: white;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+#start {
+  padding: 0.25rem 0.5rem;
+  background-color: yellow;
+  font-size: 1.5rem;
+  display: block;
+  margin-top: 15px;
+}/*# sourceMappingURL=style.css.map */
